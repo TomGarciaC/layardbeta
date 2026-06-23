@@ -48,7 +48,7 @@ Layard estructura crédito privado respaldado por contratos de arrendamiento de 
 - Eyebrows, labels y tags en **VERSALES** con tracking amplio.
 - El wordmark **LAYARD** siempre en versales.
 
-**Cifras y datos:** las cifras destacadas se componen en Gloock (serif) para tratarlas como afirmaciones editoriales, no como adornos de dashboard. Unidades en sans, tamaño menor ("$1,240 **mdp**").
+**Cifras y datos:** las cifras destacadas se componen en Gloock (serif) para tratarlas como afirmaciones editoriales, no como adornos de dashboard. Unidades en sans, tamaño menor ("$200 **mdp**").
 
 **Sin emoji.** Nunca. No es parte de la marca.
 
@@ -113,11 +113,11 @@ Layard estructura crédito privado respaldado por contratos de arrendamiento de 
 
 Las imágenes ilustran el **activo subyacente de la estructura** — el inmueble comercial real — nunca el sector financiero en abstracto. Operan en tres registros según el contexto de uso.
 
-**Registro 1 · Tesis y marca** (Hero, Tesis, Filosofía). Fotografía arquitectónica editorial del inmueble: fachada completa del local con letrero de inquilino corporativo visible, encuadre desde esquina que muestre escala y ubicación urbana. Luz natural, hora dorada o difusa. Contraste contenido, temperatura neutra o ligeramente fría, saturación −10–20%. Sin personas. Horizontal o 1:1.2 vertical.
+**Registro 1 · Tesis y marca** (Hero, Tesis, Filosofía). Fotografía arquitectónica editorial del inmueble: fachada completa del local con inquilino corporativo visible, sin identificar la marca específica, encuadre desde esquina que muestre escala y ubicación urbana. Luz natural, hora dorada o difusa. Contraste contenido, temperatura neutra o ligeramente fría, saturación −10–20%. Sin personas. Horizontal o 1:1.2 vertical.
 
 **Registro 2 · Inversionistas** (página de Inversionistas, tesis de inversión). Abstracción del activo: detalles materiales — textura de concreto, vidrio cortina, acero estructural, patrón de fachada. Sin personas. Composición geométrica, alto contraste, blanco y negro aceptable. Macro o semi-macro con foco nítido en el detalle.
 
-**Registro 3 · Acreditados** (página de Acreditados, programas). Portafolio en operación: inmueble con inquilino reconocible en contexto urbano real. Puede incluir actividad exterior sin enfoque en personas. Procesado cálido, ligeramente desaturado. Hora dorada preferida.
+**Registro 3 · Acreditados** (página de Acreditados, programas). Portafolio en operación: inmueble con inquilino corporativo en contexto urbano real, sin identificar la marca específica. Puede incluir actividad exterior sin enfoque en personas. Procesado cálido, ligeramente desaturado. Hora dorada preferida.
 
 **Tratamiento cromático general.** Temperatura neutra a fría (5400–5800 K). Saturación reducida. Sombras ligeramente alzadas. Sin filtros de moda. Las imágenes sobre fondo crema deben tener temperatura fría; las imágenes sobre fondo verde pueden ser más cálidas.
 

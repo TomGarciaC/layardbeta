@@ -795,6 +795,21 @@ ul { margin: 0; padding: 0; list-style: none; }
 }
 .navbar__mobile a[aria-current="page"] { color: var(--color-accent-light); opacity: 1; }
 .navbar__mobile .btn { margin-top: var(--space-4); }
+
+/* Menú abierto a pantalla completa (tablet y mobile) */
+@media (max-width: 1023px) {
+  .navbar__mobile.is-open {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 72px;
+    height: calc(100vh - 72px);
+    height: calc(100dvh - 72px);
+    background-color: var(--color-primary);
+    overflow-y: auto;
+    z-index: var(--z-sticky);
+  }
+}
 @media (min-width: 1024px) { .navbar__mobile { display: none !important; } }
 
 /* ------------------------------------------------------------
@@ -1407,7 +1422,7 @@ ul { margin: 0; padding: 0; list-style: none; }
     gap: var(--space-10) var(--space-12);
   }
   .footer__brand-col { grid-column: 1; grid-row: 1; text-align: left; }
-  .footer .footer__nav { grid-column: 2; grid-row: 1; flex-direction: row; flex-wrap: nowrap; align-items: center; gap: var(--space-3) var(--space-6); white-space: nowrap; }
+  .footer .footer__nav { grid-column: 2; grid-row: 1; flex-direction: row; flex-wrap: nowrap; justify-content: flex-end; align-items: center; gap: var(--space-3) var(--space-6); white-space: nowrap; }
   .footer__contact { grid-column: 1 / 3; grid-row: 2; align-items: center; text-align: center; }
 }
 .footer__brand {
@@ -1440,8 +1455,13 @@ ul { margin: 0; padding: 0; list-style: none; }
 }
 @media (min-width: 768px) { .footer__bottom { grid-template-columns: 1fr 1.6fr; align-items: start; } }
 .footer__copy { font-size: var(--text-label); color: rgba(255, 252, 240, 0.55); }
-.footer__legal { font-size: var(--text-label); line-height: var(--leading-normal); color: rgba(255, 252, 240, 0.55); }
+.footer__legal { font-size: var(--text-label); line-height: var(--leading-normal); color: rgba(255, 252, 240, 0.55); text-wrap: balance; }
 @media (min-width: 768px) { .footer__legal { text-align: right; } }
+
+/* — DESKTOP (≥1024px): contacto alineado al final — */
+@media (min-width: 1024px) {
+  .footer__contact { text-align: end; align-items: flex-end; }
+}
 
 /* — TABLET (640–1023px): footer apilado y centrado — */
 @media (min-width: 640px) and (max-width: 1023px) {

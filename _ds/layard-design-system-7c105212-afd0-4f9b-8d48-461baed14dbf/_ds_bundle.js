@@ -1,4 +1,4 @@
-/* @ds-bundle: {"format":3,"namespace":"LayardDesignSystem_7c1052","components":[{"name":"Button","sourcePath":"components/buttons/Button.jsx"},{"name":"Badge","sourcePath":"components/data/Badge.jsx"},{"name":"Eyebrow","sourcePath":"components/data/Eyebrow.jsx"},{"name":"StatFigure","sourcePath":"components/data/StatFigure.jsx"},{"name":"Tag","sourcePath":"components/data/Tag.jsx"},{"name":"Input","sourcePath":"components/forms/Input.jsx"},{"name":"Select","sourcePath":"components/forms/Select.jsx"},{"name":"Icon","sourcePath":"components/iconography/Icon.jsx"},{"name":"Navbar","sourcePath":"components/navigation/Navbar.jsx"},{"name":"Card","sourcePath":"components/surfaces/Card.jsx"}],"sourceHashes":{"components/buttons/Button.jsx":"07e8d2805b48","components/data/Badge.jsx":"ef0be4d14587","components/data/Eyebrow.jsx":"c578f56cfe9f","components/data/StatFigure.jsx":"fc2ddf4d8466","components/data/Tag.jsx":"6d137047036a","components/forms/Input.jsx":"7433bf10efb1","components/forms/Select.jsx":"ebf5351fc17f","components/iconography/Icon.jsx":"f4c6fad1467a","components/navigation/Navbar.jsx":"17dc5b5ff589","components/surfaces/Card.jsx":"cbd7f91d531b","ui_kits/website/Audiences.jsx":"299201ea9e0b","ui_kits/website/ContactForm.jsx":"cfc4cef4f657","ui_kits/website/Footer.jsx":"d65abae81b8e","ui_kits/website/Hero.jsx":"d0fa25d4af31","ui_kits/website/StatsBand.jsx":"0fe62de9e2f2"},"inlinedExternals":[],"unexposedExports":[]} */
+/* @ds-bundle: {"format":3,"namespace":"LayardDesignSystem_7c1052","components":[{"name":"Button","sourcePath":"components/buttons/Button.jsx"},{"name":"Badge","sourcePath":"components/data/Badge.jsx"},{"name":"Eyebrow","sourcePath":"components/data/Eyebrow.jsx"},{"name":"StatFigure","sourcePath":"components/data/StatFigure.jsx"},{"name":"Tag","sourcePath":"components/data/Tag.jsx"},{"name":"Input","sourcePath":"components/forms/Input.jsx"},{"name":"Select","sourcePath":"components/forms/Select.jsx"},{"name":"Icon","sourcePath":"components/iconography/Icon.jsx"},{"name":"Navbar","sourcePath":"components/navigation/Navbar.jsx"},{"name":"Card","sourcePath":"components/surfaces/Card.jsx"}],"sourceHashes":{"components/buttons/Button.jsx":"07e8d2805b48","components/data/Badge.jsx":"ef0be4d14587","components/data/Eyebrow.jsx":"c578f56cfe9f","components/data/StatFigure.jsx":"fc2ddf4d8466","components/data/Tag.jsx":"6d137047036a","components/forms/Input.jsx":"7433bf10efb1","components/forms/Select.jsx":"ebf5351fc17f","components/iconography/Icon.jsx":"f4c6fad1467a","components/navigation/Navbar.jsx":"17dc5b5ff589","components/surfaces/Card.jsx":"cbd7f91d531b","ui_kits/website/Audiences.jsx":"299201ea9e0b","ui_kits/website/ContactForm.jsx":"cfc4cef4f657","ui_kits/website/Footer.jsx":"d65abae81b8e","ui_kits/website/Hero.jsx":"d0fa25d4af31","ui_kits/website/StatsBand.jsx":"f3e160fffa5a"},"inlinedExternals":[],"unexposedExports":[]} */
 
 (() => {
 
@@ -1040,10 +1040,10 @@ function StatsBand() {
     StatFigure
   } = window.LayardDesignSystem_7c1052;
   const stats = [{
-    label: 'Capital desplegado',
-    value: '$1,240',
+    label: 'Capital estructurado',
+    value: '$200',
     unit: 'mdp',
-    caption: 'Íntegro, sin retención por originación.'
+    caption: 'Monto de operación piloto. Estructurado caso por caso.'
   }, {
     label: 'Duración media',
     value: '7',
