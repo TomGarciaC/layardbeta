@@ -805,6 +805,7 @@ ul { margin: 0; padding: 0; list-style: none; }
     top: 72px;
     height: calc(100vh - 72px);
     height: calc(100dvh - 72px);
+    padding-inline: var(--space-8);
     background-color: var(--color-primary);
     overflow-y: auto;
     z-index: var(--z-sticky);
