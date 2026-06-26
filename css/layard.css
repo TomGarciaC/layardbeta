@@ -1212,6 +1212,8 @@ ul { margin: 0; padding: 0; list-style: none; }
 }
 .hero__media { margin: 0; }
 .photo--hero { border-radius: 0; }
+.photo--hero img { object-position: right center; }
+@media (max-width: 1023px) { .photo--hero { min-height: 0; height: 40vh; } }
 @media (min-width: 1024px) {
   /* La imagen se estira para llenar la altura del contenido.
      El grid la hace crecer por align-items: stretch (default). */

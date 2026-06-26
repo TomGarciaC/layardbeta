@@ -332,6 +332,10 @@
 @media (min-width: 1024px) { .inv-legal__side { position: sticky; top: var(--space-20); } }
 .inv-legal__side h2 { margin-bottom: var(--space-5); max-width: 18ch; }
 .inv-legal__side p { color: var(--color-text-secondary); margin-bottom: var(--space-8); max-width: 50ch; }
+@media (max-width: 1023px) {
+  .inv-legal__side h2,
+  .inv-legal__side p { max-width: none; }
+}
 .inv-legal__index { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: var(--space-3); }
 .inv-legal__index li {
   font-family: var(--font-sans);

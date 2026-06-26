@@ -227,7 +227,7 @@
 }
 /* En tablet/mobile imagen va arriba */
 @media (max-width: 1023px) {
-  .prog-split__media { order: -1; }
+  .prog-split__media { display: none; }
 }
 
 .benefits { display: flex; flex-direction: column; }
