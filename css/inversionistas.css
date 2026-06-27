@@ -162,7 +162,7 @@
 .inv-attr p:last-child { margin-bottom: 0; }
 
 @media (prefers-reduced-motion: no-preference) {
-  .inv-attr__inner { opacity: 0; transform: translateX(24px); transition: opacity 550ms cubic-bezier(0.16,1,0.3,1), transform 550ms cubic-bezier(0.16,1,0.3,1); }
+  .inv-attr__inner { opacity: 0; transform: translateY(16px); transition: opacity 550ms cubic-bezier(0.16,1,0.3,1), transform 550ms cubic-bezier(0.16,1,0.3,1); }
   .inv-attr.is-visible .inv-attr__inner { opacity: 1; transform: none; }
 }
 
@@ -314,7 +314,7 @@
   line-height: var(--leading-normal);
 }
 @media (prefers-reduced-motion: no-preference) {
-  .inv-mechrow.scroll-animate { transform: translateX(-8px); transition: opacity 350ms ease-out, transform 350ms ease-out; transition-delay: var(--sa-delay, 0ms); }
+  .inv-mechrow.scroll-animate { transform: translateY(16px); transition: opacity 350ms ease-out, transform 350ms ease-out; transition-delay: var(--sa-delay, 0ms); }
 }
 
 /* Dibujo de líneas y nodos */

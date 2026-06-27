@@ -113,9 +113,9 @@
 @media (max-width: 1023px) {
   .split__media .photo { aspect-ratio: 16 / 9; }
 }
-/* En mobile se oculta la imagen */
+/* En mobile, al menos cuadrada */
 @media (max-width: 639px) {
-  .split--hide-media-mobile .split__media { display: none; }
+  .split__media .photo { aspect-ratio: 1 / 1; }
 }
 
 /* TABLET (640–1023): El problema alineado a la derecha, mismo margen */
