@@ -365,7 +365,10 @@
   gap: 32px;
   padding-bottom: var(--tl-pb);
 }
-@media (max-width: 639px) { .timeline__step { gap: 8px; } }
+@media (max-width: 639px) {
+  .timeline__step { gap: 8px; }
+  .timeline__line { left: 18px; }
+}
 .timeline__step:last-child { padding-bottom: 0; }
 
 /* Marcador: círculo sobre la línea */
@@ -376,6 +379,9 @@
   padding-top: 1px; /* alinea el punto con la línea del eyebrow */
   position: relative;
   z-index: 1; /* el punto queda por encima de la línea vertical */
+}
+@media (max-width: 639px) {
+  .timeline__marker { flex: 0 0 36px; }
 }
 .timeline__dot {
   width: 20px;
@@ -429,7 +435,7 @@
   .timeline__dot { background-color: #D4C9B0; transition: background-color 300ms ease; transition-delay: 200ms; }
   .timeline__step.is-visible .timeline__dot { background-color: #B87333; }
 
-  .timeline__body { opacity: 0; transform: translateX(20px); transition: opacity 500ms ease-out, transform 500ms ease-out; }
+  .timeline__body { opacity: 0; transform: translateY(16px); transition: opacity 500ms ease-out, transform 500ms ease-out; }
   .timeline__step.is-visible .timeline__body { opacity: 1; transform: none; }
 }
 
